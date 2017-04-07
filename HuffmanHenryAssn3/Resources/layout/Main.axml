@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:padding="10dip"
+    android:layout_margin="10dip"
+    android:background="@drawable/layout_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:text="Screen Info"
+            android:background="@drawable/custom_button"
+            android:layout_weight="0.25"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:id="@+id/btnScreen" />
+        <Button
+            android:text="Network Info"
+            android:background="@drawable/custom_button"
+            android:layout_weight="0.25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/btnNetwork" />
+        <Button
+            android:text="OS Info"
+            android:background="@drawable/custom_button"
+            android:layout_weight="0.25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/btnOS" />
+        <Button
+            android:text="Name"
+            android:background="@drawable/custom_button"
+            android:layout_weight="0.25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/btnName" />
+    </LinearLayout>
+</RelativeLayout>

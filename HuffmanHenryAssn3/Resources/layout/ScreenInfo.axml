@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:padding="10dip"
+    android:layout_margin="10dip"
+    android:background="@drawable/layout_background">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tableLayout1">
+        <TableRow>
+            <TextView
+                android:background="@drawable/custom_button"
+                android:layout_weight="1"
+                android:text="Orientation: "
+                android:padding="3dip"
+                android:layout_margin="10dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:background="@drawable/custom_button"
+                android:layout_weight="1"
+                android:text="Result "
+                android:padding="3dip"
+                android:layout_margin="10dp"
+                android:id="@+id/tvOrientation" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:background="@drawable/custom_button"
+                android:layout_weight="1"
+                android:text="Screen Width(real): "
+                android:padding="3dip"
+                android:layout_margin="10dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:background="@drawable/custom_button"
+                android:layout_weight="1"
+                android:text="Result "
+                android:padding="3dip"
+                android:layout_margin="10dp"
+                android:id="@+id/tvWidth" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:background="@drawable/custom_button"
+                android:layout_weight="1"
+                android:text="Screen Height(real): "
+                android:padding="3dip"
+                android:layout_margin="10dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:background="@drawable/custom_button"
+                android:layout_weight="1"
+                android:text="Result "
+                android:padding="3dip"
+                android:layout_margin="10dp"
+                android:id="@+id/tvHeight" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
